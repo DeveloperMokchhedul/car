@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.PrimaryContainer{
+    width: 1141px;
+}
+.container{
+    max-width: 945px;
+}
