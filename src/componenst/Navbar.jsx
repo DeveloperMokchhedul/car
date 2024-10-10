@@ -14,7 +14,7 @@ function Navbar() {
     return (
         <>
             <div className='PrimaryContainer mx-auto h-[40px] mt-[21px] flex justify-between items-center'>
-                <NavLink to={"/"}><img src="/images/logo.png" alt="" /></NavLink>
+                <NavLink to={"/"}><img className='imageHover' src="/images/logo.png" alt="" /></NavLink>
                 <div className='flex gap-12 items-center'>
                     <div>
                         <ul className='flex gap-10 font-inter text-[16px] font-semibold'>
@@ -31,7 +31,7 @@ function Navbar() {
                     </div>
 
                     <div className='flex gap-5 items-center'>
-                        <CgProfile />
+                        <CgProfile className='hoverImage' />
                         <NavLink to={"/signup"} className='text-[14px] text-[#9A9EA7]'>Sign up</NavLink>
                     </div>
 

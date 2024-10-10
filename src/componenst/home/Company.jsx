@@ -1,25 +1,21 @@
-import React from 'react'
+import React from "react";
 
-function Common() {
-    return (
-        <>
-        
-
-                <div className='col-span-4 flex '>
-                    <div className='flex items-center mx-auto  gap-4'>
-                        <img className='w-[42px] h-[22px]' src="/images/company.png" alt="" />
-                        <div>
-                            <h1 className='text-[18px] font-bold'>Subaru</h1>
-                            <p className='text-[14px]'>from $40k</p>
-                        </div>
-                    </div>
-                </div>
-
-
-    
-
-        </>
-    )
+function Company({ image, title, from }) {
+  return (
+    <>
+      <div className=" col-span-6 md:col-span-4 flex ">
+        <div className="">
+          <div className="flex items-center gap-2 md:gap-4">
+            <img className=" w-[42px] h-[22px]" src={image} alt="" />
+            <div>
+              <h1 className="text-[18px] font-bold">{title}</h1>
+              <p className="text-[14px]">from ${from}k</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Common
+export default Company;

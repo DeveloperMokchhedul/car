@@ -5,8 +5,8 @@ import Button from './Button';
 function CarCard({image,title,spend,train,engine,many }) {
     return (
         <>
-            <div className='col-span-4 mt-10 '>
-                <img src={image} alt="" />
+            <div className='col-span-12 md:col-span-4 mt-10 '>
+                <img className='imageHover' src={image} alt="" />
                 <h3 className='text-[16px] font-bold pt-3'>{title}</h3>
                 <p className='text-[14px] text-[#9A9EA7]'>{spend}</p>
                 <div className='flex items-center gap-2 py-5'>

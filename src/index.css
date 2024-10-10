@@ -8,3 +8,9 @@
 .container{
     max-width: 945px;
 }
+.imageHover:hover{
+    transform: scale(1.05);
+    transition-delay: 150ms;
+    transition-duration:  100ms;
+    
+}

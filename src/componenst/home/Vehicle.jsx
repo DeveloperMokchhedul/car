@@ -8,7 +8,7 @@ import { IoIosSearch } from "react-icons/io";
 function Vehicle() {
   return (
     <>
-      <div className='container mx-auto '>
+      <div className='container mx-auto mt-10 '>
         <Title
           title="Which vehicles you are looking for ?"
         />
