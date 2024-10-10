@@ -8,7 +8,7 @@ function RecentReview() {
       <>
         <div>
           <Title title={"Recent Reviews"} />
-          <div className='PrimaryContainer mx-auto grid grid-cols-12'>
+          <div className='md:PrimaryContainer px-5 md:px-0 text-center md:text-start mx-auto grid grid-cols-12'>
             <ReviewCart
               image={"/images/reviewcar1.png"}
               title={"2021 Cadilac Escalade"}

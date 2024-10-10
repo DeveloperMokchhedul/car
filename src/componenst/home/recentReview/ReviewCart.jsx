@@ -12,11 +12,11 @@ function ReviewCart({ image,title,description, name, role, review, total, cimage
                 <p className='text-[14px] text-[#9A9EA7] tracking-wider px-3'>{description}</p>
                 <div className='flex items-center gap-2 py-5 px-3'>
                     <div className='flex flex-row gap-20 justify-between items-center '>
-                        <div className='flex gap-3'>
-                            <img src={cimage} alt="" />
+                        <div className='flex gap-3 items-center '>
+                            <img className='w-[24px] h-[24px]' src={cimage} alt="" />
                             <div>
-                                <h3 className='text-[14px]'>{name}</h3>
-                                <p className='text-[12px]'>{role}</p>
+                                <h3 className='text-[10px] md:text-[14px]'>{name}</h3>
+                                <p className='text-[10px] md:text-[12px]'>{role}</p>
                             </div>
                         </div>
 

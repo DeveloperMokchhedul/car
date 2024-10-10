@@ -6,10 +6,10 @@ function Trending() {
     // title,spend,train,engine,many
     return (
         <>
-            <div className='PrimaryContainer mx-auto my-16'>
+            <div className='md:PrimaryContainer px-5 md:px-0 mx-auto my-16'>
                 <Title title={"Trending near you"} />
 
-                <div className='grid grid-cols-12'>
+                <div className='grid grid-cols-12 md:text-start text-center'>
                     <CarCard
                         image="/images/car1.png"
                         title={"Used 2019 Audi S4 Premium Plus"}

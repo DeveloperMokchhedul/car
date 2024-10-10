@@ -6,7 +6,7 @@ function BestSeller() {
     // <div className='grid grid-cols-12 my-10'>
     return (
         <>
-            <div className='container mx-auto  '>
+            <div className='md:container mx-auto  px-5 md:px-0 '>
                 <Title title={"Explore best selling car makes"} />
                 <div className='grid grid-cols-12 py-14 gap-y-8 md:gap-x-24    '>
                     <Commpany  image = {"images/company1.png"} title={"Subaru"} from={"40"}/>

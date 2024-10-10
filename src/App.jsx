@@ -9,6 +9,7 @@ import Support from "./pages/Support";
 import Navbar from "./componenst/Navbar";
 import Home from "./pages/Home";
 import Footer from "./componenst/Footer";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/sellcars" element={<SellCars />} />
         <Route path="/localdealers" element={<LocalDealer />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
